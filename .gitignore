@@ -1,0 +1,125 @@
+# 目标文件
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+*.exe
+*.out
+*.app
+
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# 常见构建目录
+build/
+Build/
+bin/
+lib/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*.user
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.opensdf
+*.opendb
+*.sdf
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+*.autosave
+*.user
+*.creator.user*
+*-build-*
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+*.cmake
+!CMakeLists.txt
+Makefile
+
+# 日志文件
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 备份文件
+*.bak
+*.orig
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# 测试生成的文件
+test_*
+Testing/
+tests/output/
+
+# 文档生成
+docs/
+doc/html/
+doc/latex/
+*.dox
+
+# vcpkg
+vcpkg_installed/
+vcpkg-manifest-install.log
+
+# Conan
+conaninfo.txt
+conanbuildinfo.*
+conanbuild.*
+conanenv.*
+conan_imports_*
